@@ -1,5 +1,5 @@
 # data_consistency_checker.py
-from QA_final.db_connections import OracleConnection, SolrConnection
+from db_connections import OracleConnection, SolrConnection
 import logging
 from config import ORACLE_CONN_STR, SOLR_URL, PARENT_QUERY, CHILD_QUERY  # Import from config
 

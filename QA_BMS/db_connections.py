@@ -2,7 +2,6 @@ import cx_Oracle
 import pysolr
 import logging
 import requests
-import os
 from datetime import datetime
 from typing import List, Dict, Any, Iterator
 

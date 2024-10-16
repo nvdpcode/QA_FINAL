@@ -1,5 +1,5 @@
 # status_check.py
-from QA_final.db_connections import OracleConnection, SolrConnection
+from db_connections import OracleConnection, SolrConnection
 import logging
 from config import SOLR_URL  # Import from config
 
